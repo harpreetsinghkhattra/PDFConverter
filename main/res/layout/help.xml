@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/help_toolbar"
+            android:background="@color/colorToolbar"></android.support.v7.widget.Toolbar>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:id="@+id/t"
+            android:layout_marginTop="20dp"
+            android:text="Why is PDFConvertor?"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tt"
+            android:textSize="10dp"
+            android:text="PDFConvertor is app that you provide a offline pdf conversion and it provides given features on dashboard of app"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:id="@+id/ttt"
+            android:layout_marginTop="20dp"
+            android:text="How we can use it"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tttt"
+            android:text="Here the answer of it is quite simple it is user freindly and no need to worry about the lot of contents in it. if only you have done any mistake it will suggest you. Also it is take file path from your file manager sd or temp sd , not from your gellary or another"
+            android:layout_gravity="center"
+            android:textSize="10dp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:id="@+id/ttttt"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:text="How we convert doc file into pdf format?"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tttttt"
+            android:layout_height="match_parent"
+            android:text="You can't convert doc file to pdf directly to do that your doc file should be in '.docx ' format and after it will convert to your file format"
+            android:layout_gravity="center"
+            android:textSize="10dp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tttttttt"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/ttttttttt"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

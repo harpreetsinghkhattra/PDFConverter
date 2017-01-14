@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ui_linear"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_pdftoolbar"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:background="#aa514a"></android.support.v7.widget.Toolbar>
+
+        <android.support.v4.widget.DrawerLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ui_draw">
+
+            <FrameLayout
+                android:id="@+id/ui_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </FrameLayout>
+
+            <ListView
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:id="@+id/ui_list"
+                android:divider="@null"
+                android:background="#fff"
+                android:layout_gravity="left|top"
+                android:dividerHeight="0dp">
+            </ListView>
+
+        </android.support.v4.widget.DrawerLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:hint="File Directory"
+            android:id="@+id/pdf_file_dir"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:hint="FileName.pdf"
+            android:id="@+id/pdf_file_name"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:id="@+id/pdf_file_loading">
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                />
+        </RelativeLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Convert"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif"
+            android:id="@+id/pdf_file_btn"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/separator"/>
+    </LinearLayout>
+
